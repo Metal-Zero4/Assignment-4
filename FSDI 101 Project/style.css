@@ -1,0 +1,146 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&display=swap');
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background: lightslategray;
+    font-family: 'Lato', sans-serif;
+}
+p{
+    line-height: 2.5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+h1,h2,h3{
+    text-align:center;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+/*utilities*/
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*header section*/
+header{
+    background-color: #ffc400 ;
+    height: 35vh;
+}
+header h1{
+    height:52px;
+}
+header h2{
+font-size: 32px;
+}
+header .icon-container{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+header .icon-container a i{
+    font: size 40px;
+    margin-right: 20px;
+    color: black;
+}
+header .icon-container i:hover{
+    text-shadow: 2px 2px white;
+    cursor: crosshair;
+}
+header nav{
+    text-align:center;
+}
+header nav a{
+    font-size:18px;
+    color: black;
+    background-color:grey;
+    border-radius: 5px;
+    margin-right:20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header nav a:hover{
+    font-weight:bold;
+    text-shadow: 2px 2px white;
+}
+/*main*/
+section.bio-section{
+    background-color: #e1e1e1;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    border-radius:5px;
+}
+/* main alumni.html*/
+h4{
+    color: #ffc400;
+    background-color: black;
+    text-align: center;
+    font-weight: 300;
+    width: 303px;
+    padding: 10px;
+    border-radius: 5px;
+}
+ol{
+    background-color: #e1e1e1;
+    width: 285px;
+    text-align: center;
+    border-radius:5px;
+}
+ol li{
+    text-align: center;
+    font-weight: 400;
+    margin-left: 20px;
+}
+/*footer*/
+footer .icon-container{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+    width: 280px;
+}
+footer .icon-container a i{
+    font-size:20px;
+    margin-right: 20px;
+    color: black;
+}
+footer .icon-container i:hover{
+    text-shadow: 2px 2px white;
+    cursor:crosshair;
+    color: gold;
+}
+.me-welding{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+
+}
+/*project*/
+img{
+    max-width: 100;
+}
+h5{
+    font-size: 40px;
+    margin: 30px 0;
+}
+/*contact*/
+.contact{
+    width: 40%;
+    background-color: cornsilk;
+    font-weight: 400;
+    border-radius: 10px;
+    text-align: center;
+}
+button:hover{
+    text-shadow: darkslategrey 2px 2px;
+    cursor:crosshair;
+}
